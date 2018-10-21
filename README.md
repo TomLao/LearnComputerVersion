@@ -26,7 +26,8 @@ No Words, Except Code.
 
 ## 2.2.神经网络相关：
 - [Dropout in (Deep) Machine learning——对Dropout的解释:racehorse:](https://medium.com/@amarbudhiraja/https-medium-com-amarbudhiraja-learning-less-to-learn-better-dropout-in-deep-machine-learning-74334da4bfc5)
-
+- [nndl——貌似是复旦大学的神经网络与深度学习PDF书](https://nndl.github.io/)
+- 
 
 # 3.视频课程链接：
 ## 3.1.机器学习相关：
