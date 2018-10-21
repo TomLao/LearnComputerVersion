@@ -26,3 +26,10 @@ No Words, Except Code.
 
 ## 2.2.神经网络相关：
 - [Dropout in (Deep) Machine learning——对Dropout的解释:racehorse:](https://medium.com/@amarbudhiraja/https-medium-com-amarbudhiraja-learning-less-to-learn-better-dropout-in-deep-machine-learning-74334da4bfc5)
+
+
+# 3.视频课程链接：
+## 3.1.机器学习相关：
+- [google machine-learning crash-course](https://developers.google.com/machine-learning/crash-course/)
+- [Coursera meachine-learning By Andrew Ng](https://www.coursera.org/learn/machine-learning)
+- [cs231n From B站翻译版](https://www.bilibili.com/video/av17204303)
