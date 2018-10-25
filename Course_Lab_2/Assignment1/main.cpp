@@ -1,15 +1,3 @@
-//#include "widget.h"
-//#include <QApplication>
-
-//int main(int argc, char *argv[])
-//{
-//    QApplication a(argc, argv);
-//    Widget w;
-//    w.show();
-
-//    return a.exec();
-//}
-
 #include<opencv2/opencv.hpp>
 #include<cv.h>
 using namespace cv;
@@ -18,8 +6,8 @@ using namespace std;
 int main(){
     VideoCapture capture(0);
     Mat img;
-    double fps1, fps2, t = 0;
-    char str[10];   //String of fps
+    double fps, t = 0;
+    char str[10];//String of fps
     while(1){
 
         //getTickCount():计数设备从开始运行的毫秒
@@ -37,8 +25,8 @@ int main(){
         }
         else{
             t = ((double)getTickCount() - t) / getTickFrequency();
-            fps1 = 1.0/t;
-            sprintf(str, "FPS:%.2f, width:%d, height:%d", fps1, img.rows, img.cols);
+            fps = 1.0/t;
+            sprintf(str, "FPS:%.2f, width:%d, height:%d", fps, img.rows, img.cols);
             putText(frame, str, Point(100,100), FONT_HERSHEY_SIMPLEX, 0.8, Scalar(255, 255, 255));
 
             //画十字线
