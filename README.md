@@ -23,6 +23,10 @@ No Words, Except Code.
 
 - [Understanding Convolutions——从一维卷积讲到cnn——推荐看:racehorse:](http://colah.github.io/posts/2014-07-Understanding-Convolutions/)
 
+- [张氏法相机标定（理论部分）](https://zhuanlan.zhihu.com/p/24651968)
+
+- [张氏法相机标定（代码部分）](https://blog.csdn.net/spw_1201/article/details/78417551)
+
 
 ## 2.2.神经网络相关：
 - [Dropout in (Deep) Machine learning——对Dropout的解释:racehorse:](https://medium.com/@amarbudhiraja/https-medium-com-amarbudhiraja-learning-less-to-learn-better-dropout-in-deep-machine-learning-74334da4bfc5)
