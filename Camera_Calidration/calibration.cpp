@@ -166,4 +166,46 @@ int main() {
     fout << endl;
 
 
+    //**********************************************
+    //显示标定结果
+    //**********************************************
+    Mat mapx = Mat(img_size, CV_32FC1);
+    Mat mapy = Mat(img_size, CV_32FC1);
+    Mat R = Mat::eye(3, 3, CV_32F);
+    cout << "保存矫正图像" << endl;
+    string imgFileName;
+    std::stringstream strStm;
+    for (int i = 1; i <= img_count; i++) {
+        //计算畸变映射
+        initUndistortRectifyMap(camera_matrix, dist_coeffs, Mat(),
+                                getOptimalNewCameraMatrix(camera_matrix, dist_coeffs, img_size, 1, img_size, 0),
+                                img_size, CV_16SC2, mapx, mapy);
+
+        strStm.clear(); //清除缓存
+        imgFileName.clear();
+        string filePath = "Camera_Calidration/test_img_input/left";
+        strStm << setw(2) << setfill('0') << i;
+        strStm >> imgFileName;
+        filePath = filePath + imgFileName + ".jpg";
+        //获取图片路径
+        Mat imgSource = imread(filePath);
+        Mat newImg = imgSource.clone();     //拷贝图像
+
+        //矫正的方法
+        remap(imgSource, newImg, mapx, mapy, INTER_LINEAR); //把求得的映射应用到图像上
+
+        imgFileName = "Camera_Calidration/test_img_output/left" + imgFileName + "_after.jpg";
+        imwrite(imgFileName, newImg);   //保存图像
+        imshow("Original image", imgSource);
+        waitKey(1000);
+        imshow("Undistorted Image", newImg);
+        waitKey(1000);
+
+    }
+    fin.close();
+    fout.close();
+    waitKey(0);
+
+    return 0;
+
 }
