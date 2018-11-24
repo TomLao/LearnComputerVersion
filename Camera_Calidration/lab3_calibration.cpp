@@ -1,5 +1,5 @@
 //
-// Created by heze on 18-11-18.
+// Created by LaoHeze on 18-11-18.
 // 实验3-使用张正友标定法，对笔记本摄像头计算内存，并矫正畸变
 //
 
@@ -10,6 +10,8 @@
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/calib3d/calib3d.hpp>
 #include <opencv2/highgui/highgui.hpp>
+
+#define MAXIMAGE 31
 
 using namespace std;
 using namespace cv;
@@ -41,8 +43,9 @@ void getImageFromCamera(string image_input_path, string imageList) {
             break;
         imshow("Camera Tab Q to Get Image!", frame);
         char key = waitKey(1);
-        if (f == 21)
+        if (f == MAXIMAGE)
             break;
+        //按 q 或 Q 拍照
         if (key == 'q' || key == 'Q') {
             imgName = image_input_path + to_string(f++) + ".jpg";
             imwrite(imgName, frame);

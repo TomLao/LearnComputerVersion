@@ -14,10 +14,14 @@ set(CMAKE_AUTOUIC ON)
 #lab2_demo1
 #add_executable(LearnComputerVersion Course_Lab_2/Assignment1/main.cpp)
 #lab2_assignament2
-add_executable(LearnComputerVersion Course_Lab_2/Assignment2/main.cpp Course_Lab_2/Assignment2/mainwindow.cpp Course_Lab_2/Assignment2/mainwindow.h Course_Lab_2/Assignment2/mainwindow.ui)
+#add_executable(LearnComputerVersion Course_Lab_2/Assignment2/main.cpp Course_Lab_2/Assignment2/mainwindow.cpp Course_Lab_2/Assignment2/mainwindow.h Course_Lab_2/Assignment2/mainwindow.ui)
 
+#calibration
+#add_executable(LearnComputerVersion zhang-s-method/zhang-method/zhang-method.cpp)
+#add_executable(LearnComputerVersion Camera_Calidration/calibration.cpp)
+add_executable(LearnComputerVersion Camera_Calidration/lab3_calibration.cpp)
 
-find_package(Qt5Widgets)
+        find_package(Qt5Widgets)
 find_package(OpenCV REQUIRED)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
