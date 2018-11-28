@@ -1,40 +1,41 @@
 # LearnComputerVersion
 No Words, Except Code.
 
-ÓÖ¿ªÁËÒ»¸öĞÂ²Ö¿â£¬ÎŞÓï¡£
+åˆå¼€äº†ä¸€ä¸ªæ–°ä»“åº“ï¼Œæ— è¯­ã€‚
 
-±¾²Ö¿âÓÃÓÚÌá½»¼ÆËã»úÊÓ¾õ·½ÃæµÄÑ§Ï°¡£½«»áÊ¹ÓÃµ½£ºC++»òPython°æµÄOpencv¡£
+æœ¬ä»“åº“ç”¨äºæäº¤è®¡ç®—æœºè§†è§‰æ–¹é¢çš„å­¦ä¹ ã€‚å°†ä¼šä½¿ç”¨åˆ°ï¼šC++æˆ–Pythonç‰ˆçš„Opencvã€‚
 
-×ö¸öÎÄÕÂor²©¿ÍÁ´½Ó¼ÇÂ¼£¬»¶Ó­Ìá½»£º
+åšä¸ªæ–‡ç« oråšå®¢é“¾æ¥è®°å½•ï¼Œæ¬¢è¿æäº¤ï¼š
 
 @[TOC]
 
-# 1.ÈËor²©¿ÍµÄÁ´½Ó£º
-## 1.1.cvÏà¹Ø£º
--  [MengqiµÄ²©¿Í](https://mengqi92.github.io/)
+# 1.äººoråšå®¢çš„é“¾æ¥ï¼š
+## 1.1.cvç›¸å…³ï¼š
+-  [Mengqiçš„åšå®¢](https://mengqi92.github.io/)
 
 
-# 2.ÎÄÕÂÁ´½Ó£º
-## 2.1.CVÏà¹Ø£º
-- [Ë¹Ì¹¸£cs178µÄFlash¶¯»­ÑİÊ¾](https://graphics.stanford.edu/courses/cs178/applets/applets.html)
-![ÉÏÃæ--¶¯»­ÑİÊ¾](https://img-blog.csdn.net/20181021223847495?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xhbzEyMzQ1MTExMTE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+# 2.æ–‡ç« é“¾æ¥ï¼š
+## 2.1.CVç›¸å…³ï¼š
+- [æ–¯å¦ç¦cs178çš„FlashåŠ¨ç”»æ¼”ç¤º](https://graphics.stanford.edu/courses/cs178/applets/applets.html)
+![ä¸Šé¢--åŠ¨ç”»æ¼”ç¤º](https://img-blog.csdn.net/20181021223847495?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xhbzEyMzQ1MTExMTE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
-- [ÎÒ¶Ô¾í»ıµÄÀí½â¡ª¡ª¶Ô¾í»ıµÄ¼òµ¥½éÉÜ](https://mengqi92.github.io/2015/10/06/convolution/)
+- [æˆ‘å¯¹å·ç§¯çš„ç†è§£â€”â€”å¯¹å·ç§¯çš„ç®€å•ä»‹ç»](https://mengqi92.github.io/2015/10/06/convolution/)
 
-- [Understanding Convolutions¡ª¡ª´ÓÒ»Î¬¾í»ı½²µ½cnn¡ª¡ªÍÆ¼ö¿´:racehorse:](http://colah.github.io/posts/2014-07-Understanding-Convolutions/)
+- [Understanding Convolutionsâ€”â€”ä»ä¸€ç»´å·ç§¯è®²åˆ°cnnâ€”â€”æ¨èçœ‹:racehorse:](http://colah.github.io/posts/2014-07-Understanding-Convolutions/)
 
-- [ÕÅÊÏ·¨Ïà»ú±ê¶¨£¨ÀíÂÛ²¿·Ö£©](https://zhuanlan.zhihu.com/p/24651968)
+- [å¼ æ°æ³•ç›¸æœºæ ‡å®šï¼ˆç†è®ºéƒ¨åˆ†ï¼‰](https://zhuanlan.zhihu.com/p/24651968)
 
-- [ÕÅÊÏ·¨Ïà»ú±ê¶¨£¨´úÂë²¿·Ö£©](https://blog.csdn.net/spw_1201/article/details/78417551)
+- [å¼ æ°æ³•ç›¸æœºæ ‡å®šï¼ˆä»£ç éƒ¨åˆ†ï¼‰](https://blog.csdn.net/spw_1201/article/details/78417551)
 
+- [å¦‚ä½•ç†è§£æ„ŸçŸ¥æœºå­¦ä¹ ç®—æ³•çš„å¯¹å¶å½¢å¼ï¼Ÿ - é™¶è½»æ¾çš„å›ç­” - çŸ¥ä¹](https://www.zhihu.com/question/26526858/answer/131591887)
 
-## 2.2.Éñ¾­ÍøÂçÏà¹Ø£º
-- [Dropout in (Deep) Machine learning¡ª¡ª¶ÔDropoutµÄ½âÊÍ:racehorse:](https://medium.com/@amarbudhiraja/https-medium-com-amarbudhiraja-learning-less-to-learn-better-dropout-in-deep-machine-learning-74334da4bfc5)
-- [nndl¡ª¡ªÃ²ËÆÊÇ¸´µ©´óÑ§µÄÉñ¾­ÍøÂçÓëÉî¶ÈÑ§Ï°PDFÊé](https://nndl.github.io/)
+## 2.2.ç¥ç»ç½‘ç»œç›¸å…³ï¼š
+- [Dropout in (Deep) Machine learningâ€”â€”å¯¹Dropoutçš„è§£é‡Š:racehorse:](https://medium.com/@amarbudhiraja/https-medium-com-amarbudhiraja-learning-less-to-learn-better-dropout-in-deep-machine-learning-74334da4bfc5)
+- [nndlâ€”â€”è²Œä¼¼æ˜¯å¤æ—¦å¤§å­¦çš„ç¥ç»ç½‘ç»œä¸æ·±åº¦å­¦ä¹ PDFä¹¦](https://nndl.github.io/)
 - 
 
-# 3.ÊÓÆµ¿Î³ÌÁ´½Ó£º
-## 3.1.»úÆ÷Ñ§Ï°Ïà¹Ø£º
+# 3.è§†é¢‘è¯¾ç¨‹é“¾æ¥ï¼š
+## 3.1.æœºå™¨å­¦ä¹ ç›¸å…³ï¼š
 - [google machine-learning crash-course](https://developers.google.com/machine-learning/crash-course/)
 - [Coursera meachine-learning By Andrew Ng](https://www.coursera.org/learn/machine-learning)
-- [cs231n From BÕ¾·­Òë°æ](https://www.bilibili.com/video/av17204303)
+- [cs231n From Bç«™ç¿»è¯‘ç‰ˆ](https://www.bilibili.com/video/av17204303)
