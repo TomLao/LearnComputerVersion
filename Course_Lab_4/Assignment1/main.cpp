@@ -55,12 +55,17 @@ void drawArea(Mat &image, vector<vector<Point>> &contours) {
             int center_y = ((contours[i][1].y + contours[i][2].y) / 2 + (contours[i][0].y + contours[i][3].y) / 2) / 2;
             Point center(center_x, center_y);
 //            putText(image, "+", center, FONT_HERSHEY_SIMPLEX, 1, Scalar(0, 255, 0));
-            line(image, Point(center_x - 5, center_y), Point(center_x + 5, center_y), Scalar(0, 255, 0), 2);  //竖直线
-            line(image, Point(center_x, center_y - 5), Point(center_x, center_y + 5), Scalar(0, 255, 0), 2);  //横直线
+            line(image, Point(center_x - 5, center_y), Point(center_x + 5, center_y), Scalar(0, 0, 255), 2);  //竖直线
+            line(image, Point(center_x, center_y - 5), Point(center_x, center_y + 5), Scalar(0, 0, 255), 2);  //横直线
             cout << "中心点：x=" << center_x << ", y=" << center_y << endl;
-            double degera = atan(
+            double angles = atan(
                     (double) (contours[i][3].y - contours[i][0].y) / (double) (contours[i][3].x - contours[i][0].x));
-            cout << "角度为：" << degera << endl;
+            cout << "角度为：" << angles << endl;
+            char str[100];
+            sprintf(str, "Center x=%d, y=%d", center_x, center_y);
+            putText(image, str, Point(image.rows/3, image.cols/2-50), FONT_HERSHEY_SIMPLEX, 1, Scalar(0, 0, 255), 3);
+            sprintf(str, "angles=%lf", angles);
+            putText(image, str, Point(image.rows/3, image.cols/2), FONT_HERSHEY_SIMPLEX, 1, Scalar(0, 0, 255),3);
         }
     }
 
