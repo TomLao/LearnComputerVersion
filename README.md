@@ -29,6 +29,13 @@ No Words, Except Code.
 
 - [如何理解感知机学习算法的对偶形式？ - 陶轻松的回答 - 知乎](https://www.zhihu.com/question/26526858/answer/131591887)
 
+- [关于findContours()中轮廓树的理解](https://blog.csdn.net/guduruyu/article/details/69220296)
+
+- [opencv官网对于使用级联进行人脸检查的描述](https://docs.opencv.org/3.4/d7/d8b/tutorial_py_face_detection.html)
+
+- [opencv官网对于人脸识别三种算法的描述](https://docs.opencv.org/3.4.3/da/d60/tutorial_face_main.html)
+
+
 ## 2.2.神经网络相关：
 - [Dropout in (Deep) Machine learning——对Dropout的解释:racehorse:](https://medium.com/@amarbudhiraja/https-medium-com-amarbudhiraja-learning-less-to-learn-better-dropout-in-deep-machine-learning-74334da4bfc5)
 - [nndl——貌似是复旦大学的神经网络与深度学习PDF书](https://nndl.github.io/)
