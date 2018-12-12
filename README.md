@@ -35,6 +35,7 @@ No Words, Except Code.
 
 - [opencv官网对于人脸识别三种算法的描述](https://docs.opencv.org/3.4.3/da/d60/tutorial_face_main.html)
 
+- [知乎上关于用维度分析进行BP梯度求导的文章](https://zhuanlan.zhihu.com/p/25202034)
 
 ## 2.2.神经网络相关：
 - [Dropout in (Deep) Machine learning——对Dropout的解释:racehorse:](https://medium.com/@amarbudhiraja/https-medium-com-amarbudhiraja-learning-less-to-learn-better-dropout-in-deep-machine-learning-74334da4bfc5)
